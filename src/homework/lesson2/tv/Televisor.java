@@ -2,6 +2,11 @@ package homework.lesson2.tv;
 
 import java.util.Random;
 
+/* 
+Исправил – переименовал методы checkFull,checkStatus, checkVolume, checkChannel
+         - переопределил метод toString
+*/
+
 /*
 Реализован класс Televisor. Конструкторы позволяют создавать экземляр без ввода переменных,
 так и с ними. Для того чтобы не нарушить логику работы, есть некоторые неявные ограничения:
@@ -28,10 +33,10 @@ import java.util.Random;
 • muteVolume - устанавливает громкость на 0
 
 ## Информация о состоянии ##
-• fullCheck - выводит в консоли состояние ТВ;
-• statusCheck – возвращает boolean значение - включен ТВ или нет
-• volumeCheck – возвращает int значение - уровень громкости
-• channelCheck – возвращает String значение - какой канал
+• checkFull - выводит в консоли состояние ТВ;
+• checkStatus – возвращает boolean значение - включен ТВ или нет
+• checkVolume– возвращает int значение - уровень громкости
+• checkChannel – возвращает String значение - какой канал
  */
 public class Televisor {
     private boolean status;
